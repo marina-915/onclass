@@ -206,6 +206,7 @@ nav ul li a{
     background-image: url(image/top-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: right;
 }
 
 .key-visual-content{
@@ -216,21 +217,31 @@ nav ul li a{
     border-radius: .25rem;
     padding: 30px 15px;
     box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    margin-top: 60px;
 }
 
 .key-visual-content h2{
     margin-bottom: 15px;
     font-size: 55px;
-    font-weight: 300;
+    font-weight: 320;
 }
 
 .key-visual-content p{
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
+
 }
 
 .notice{
-    font-size: 13px !important;
-    font-weight: 300 !important;
+    font-size: 12.8px !important;
+    font-weight: 400 !important;
+}
+
+hr{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border-top:1px solid rgba(0,0,0, .1);
 }
